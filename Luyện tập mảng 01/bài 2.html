@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [23,5,67,3,66,100,21,4,7,77]
+    let max = arr[0]
+    let vitriMax = -1
+       for (let i = 0; i < arr.length; i++) {
+           if(max < arr[i]) {
+               max = arr[i]
+               vitriMax = i
+           }
+       }
+       document.write('Số lớn nhất trong mảng :' +  max+'<br>')
+       document.write('Vị trí thứ ' + vitriMax + ' trong mảng')
+</script>
+</body>
+</html>
